@@ -37,4 +37,4 @@ COPY --from=builder /app/dist ./dist
 EXPOSE 3000
 
 # Command yang akan dijalankan saat container dijalankan
-CMD ["node", "dist/main.js"]
+CMD ["node", "dist/src/server.js"]
