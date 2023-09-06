@@ -10,7 +10,8 @@
     "serve": "node dist/src/server.js",
     "start": "npm-run-all serve",
     "start:dev": "nodemon src/server.ts",
-    "lint": "tslint '*.ts'"
+    "lint": "tslint '*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Syahrulloh",
   "license": "ISC",
